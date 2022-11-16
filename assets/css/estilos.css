@@ -467,6 +467,10 @@ footer{
     align-items: flex-end;
     font-size: 12px;
 }
+.develop a{
+    text-decoration: none;
+    color: rgb(124, 123, 123);
+}
 .iconRS a{
     display: inline-flex;
     text-decoration: none;
