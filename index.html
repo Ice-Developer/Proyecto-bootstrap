@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>La Chica del Seguro - Inicio</title>
     <link rel="stylesheet" href="./assets/css/estilos.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <link rel="shortcut icon" href="./assets/favicon/favicon_index/favicon-32x32.png" type="image/x-icon">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
 </head>
@@ -23,13 +24,13 @@
     </nav>
     <header>
         <div class="imagenSaludo">
-            <div class="textoSaludo1">
-                <h1>Aprende sobre seguros de una</h1>
+            <div class="textoSaludo1" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
+                <h1>Aprende sobre seguros de una </h1>
             </div>
-            <div class="textoSaludo2" >    
+            <div class="textoSaludo2" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400" >    
                 <h1>forma <strong>facíl y rápida</strong></h1>
             </div>
-            <div class="canalYT">
+            <div class="canalYT" data-aos="fade-up" data-aos-duration="1500" data-aos-delay="400">
                 <div class="btnYTPrp">
                     <a class="btnYT" target="_blank" href="https://www.youtube.com/channel/UCWMN85pySeJnhBZphdOTRWw">Nos vemos en YouTube
                     </a>
@@ -39,10 +40,10 @@
     </header>
     <main>
         <div class="principal">
-            <div class="pgt">
+            <div class="pgt" data-aos="fade-up" data-aos-duration="1500" >
                 <h2>¿QUÉ VAMOS A APRENDER?</h2>
             </div>
-            <div class="tarjetas">    
+            <div class="tarjetas" data-aos="fade-up" data-aos-duration="1500" >    
                 <div class="tarjeta1">
                     <p>1</p>
                     <p><strong>Entenderás en detalle las pólizas de seguros</strong> que tienes hoy y las que vas a contratar en el futuro abriendo un mundo de oportunidades para <strong>fortalecer tu actividad y/o negocio.</strong></p>
@@ -57,7 +58,7 @@
                 </div>
             </div>                                
             <div id="infoCeo" class="detalleCeoCompleto">
-                <div class="ceo1">
+                <div class="ceo1" data-aos="fade-up" data-aos-duration="1500">
                     <img  class="sobreMi" src="./assets/img/foto_ceo.png" alt="imagen_ceo_empresa" >
                     <div class="ceo1Text">
                         <p class="ceo1Text1">
@@ -74,7 +75,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="ceo2">
+                <div class="ceo2" data-aos="fade-up" data-aos-duration="1500">
                     <div class="ceo2Text">
                         <p class="ceo2Text1">
                             LA CHICA DEL SEGURO
@@ -112,5 +113,11 @@
             <p>Diseñada por <a href="https://github.com/Ice-Developer">Ice Developer</a> | Copyright © 2022 La chica del seguro</p>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once:true
+        });
+    </script>
 </body>
 </html>

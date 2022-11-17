@@ -7,6 +7,7 @@
     <title>La Chica del Seguro - Contactos</title>
     <link rel="stylesheet" href="../assets/css/estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
 </head>
 <body>
     <nav class="navegador">
@@ -23,14 +24,14 @@
     <header></header>
     <main>
         <div class="principal">
-            <div class="tituloMultimedia">
+            <div class="tituloMultimedia" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
                 <h2>Contactate conmigo!!</h2>
                 <p>Hola!! Queres preguntarme algo, consultarme sobre el mundo de los seguros</p>
                 <p>o simplemente decirme algo!</p>
                 <p>Te espero!!</p>
             </div>
             <div class="backCt">
-                <div class="formComp">
+                <div class="formComp" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
                     <div class="imgSaludoCt">                        
                     </div>
                     <form action="" class="formCt">
@@ -62,5 +63,11 @@
             <p>Diseñada por <a href="https://github.com/Ice-Developer">Ice Developer</a> | Copyright © 2022 La chica del seguro</p>
         </div>
     </footer>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            once:true
+        });
+    </script>
 </body>
 </html>
