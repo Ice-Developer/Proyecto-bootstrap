@@ -333,20 +333,20 @@ mark{
     width: 500px;
     height: 350px;
     position: relative;
-    border: #14446b solid 1px;
+    border: #14446b solid 2px;
     border-radius: 5%;
     overflow: hidden;
 }
 .reproductor1 div img:hover{
-    transform:scale(1.05);
+    transform:scale(1.2);
     transition:linear;
-    transition-duration: 0.3s;   
+    transition-duration: 0.5s;   
 }
 
 .reproductor4 div img:hover{
-    transform:scale(1.05);
+    transform:scale(1.2);
     transition:linear;
-    transition-duration: 0.3s;   
+    transition-duration: 0.5s;   
 }
 .reproductor1 iframe, .reproductor4 iframe {
     width: inherit;
@@ -440,9 +440,11 @@ footer{
     justify-content: center;
     align-items: center;
 }
+
 .hst2{
     width: 252px;
 }
+
 .rS{
     width: 100%;
     display: flex;
@@ -505,4 +507,86 @@ footer{
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     transform: scale(2.2);
+}
+.backCt{
+    margin-top: 30px;
+    width: 90%;
+    background-color: white; 
+    box-shadow: 0px 0px 15px rgba(119, 118, 118, 0.315);
+    -webkit-box-shadow: 0px 0px 20px 6px rgba(2, 2, 2, 0.27); 
+    box-shadow: 0px 0px 20px 6px rgba(204, 204, 204, 0.308);
+    padding:30px;
+    display: flex;
+    font-family: raleway;
+    color: rgb(20, 68, 107);
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center; 
+}
+.formComp{
+    width: 90%;
+    height: 600px;
+    border: #14446b solid 3px;
+    border-radius: 30px;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    overflow: hidden;
+}
+.imgSaludoCt{
+    width: 50%;
+    display: flex;
+    background-image: url(../img/img_saludo_cont.jpg);  
+    background-size:cover;
+    justify-content: end;     
+}
+.formCt{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    gap: 25px;
+    background-color: #14446b;
+    color: #fff;
+    justify-content: center;
+    align-items: center;
+
+}
+.formCt textarea{
+    width:400px;
+    font-family: raleway;
+    font-weight: bold;
+    border-radius: 30px;
+    height: 180px;
+    padding: 15px;
+    border: none;
+    margin-bottom: 10px;
+}
+.formCt input{
+    width:400px;
+    font-family: raleway;
+    font-weight: bold;
+    border-radius: 30px;
+    height: 30px;
+    padding: 15px;
+    border: none;
+}
+.formCt button{
+    font-family: raleway;
+    color: white;
+    font-size: larger;
+    font-weight: 600;
+    border-radius: 30px;
+    height: 40px;
+    width: 150px;
+    border: none;
+    transition: 0.6s 0.35s;
+    background-image: linear-gradient(45deg, #dab8b2 0%, rgb(148, 101, 146) 45%, rgb(218,184,178) 100%);
+}
+.formCt button:hover{
+    width: 400px;
+    color: white;
+    transition: 0.6s;
+    background-image: linear-gradient(45deg, #dab8b2 0%, rgb(148, 101, 146) 45%, rgb(218,184,178) 100%);
 }
