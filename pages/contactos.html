@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="../assets/css/estilos.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/1892e980dd.js" crossorigin="anonymous"></script>
 </head>
 <body>
     <nav class="navegador">
@@ -32,16 +33,20 @@
             </div>
             <div class="backCt">
                 <div class="formComp" data-aos="fade-up" data-aos-duration="2000" data-aos-delay="400">
-                    <div class="imgSaludoCt">                        
+                    <div class="imgCt">
+                        <div class="imgSaludoCt">
+                        </div>
+                        <div class="imgVentanaCt">
+                        </div>
                     </div>
                     <form action="" class="formCt">
-                            <input type="text" name="nomApell" placeholder="Tu nombre">
-                            <input type="email" name="email" placeholder="Un Email">
-                            <input type="tel" name="tel" placeholder="Tel de contacto">
-                            <textarea name="comentario" id="" cols="30" rows="10" placeholder="Tu mensaje"></textarea> 
-                            <button type="submit"> Enviar</button>            
+                        <input type="text" name="nomApell" placeholder="Tu nombre" required title="Por favor completa este campo">
+                        <input type="email" name="email" placeholder="Un Email" required>
+                        <input type="tel" name="tel" placeholder="Tel de contacto" required>
+                        <textarea name="comentario" id="" cols="30" rows="10" placeholder="Tu mensaje"></textarea> 
+                        <button type="submit"> <i class="fa-regular fa-paper-plane fa-flip-horizontal"></i> Enviar <i class="fa-regular fa-paper-plane"></i></button>            
                     </form>
-            </div>
+                </div>
             </div>   
         </div>
     </main>
