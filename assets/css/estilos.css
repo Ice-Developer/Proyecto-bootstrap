@@ -643,7 +643,7 @@ footer{
 
 
 }
-
+/*
 .imgVentanaCt{
     background-image: url(../img/ventana_edit.jpg);
     background-size:cover;
@@ -652,6 +652,7 @@ footer{
     z-index: 49;
     position: absolute;
 }
+*/
 .imgSaludoCt{
     background-image: url(../img/img_saludo_cont.jpg);
     background-size: cover;
