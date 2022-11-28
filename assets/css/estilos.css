@@ -121,8 +121,7 @@ ul li a:hover{
     .navegador ul:hover{
         top: 80px;
     }
-    .navegador ul li:hover{
-    }
+
     .navegador ul li a:hover{
         color: rgb(218,184,178);
         transition-duration: 1s;
@@ -632,9 +631,7 @@ footer{
     border-radius: 30px;
     display: flex;
     justify-content: space-between;
-    overflow: hidden;
-
-    
+    overflow: hidden;  
 }
 .imgCt{
     width: 50%;;
